@@ -13,5 +13,6 @@
 @property(strong, nonatomic)NSString* imageUrl;
 @property(strong, nonatomic)NSString* name;
 @property(strong, nonatomic)NSNumber* price;
+@property(strong, nonatomic)NSString* descriptionData;
 
 @end

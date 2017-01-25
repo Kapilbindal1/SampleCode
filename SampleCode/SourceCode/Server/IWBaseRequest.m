@@ -42,6 +42,7 @@
                  model.imageUrl = listData[@"img_url"];
                  model.name = listData[@"title"];
                  model.price = listData[@"price"];
+                 model.descriptionData = listData[@"summary"];
                  [returnArray addObject:model];
              }
              handler(returnArray, nil);
